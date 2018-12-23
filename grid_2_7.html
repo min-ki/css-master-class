@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .father {
+            display: grid;
+            grid-gap: 10px;
+            grid-auto-rows: 100px;
+            grid-template-columns: repeat(5, 100px);
+            color: white;
+            /* align-content: end; */
+            place-content: center end;
+            /* shorthand property로 align-content justify-content 순으로 작성 */
+            height: 100vh;
+        }
+
+        .box:nth-child(even) {
+            background-color: #3498db;
+        }
+
+        .box:nth-child(odd) {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+</body>
+
+</html>
