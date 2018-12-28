@@ -1,7 +1,6 @@
 {
   "name": "4_3_News_App",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "start": "parcel index.html"
   },
@@ -14,5 +13,9 @@
         "stage": 0
       }
     }
+  },
+  "description": "",
+  "devDependencies": {
+    "postcss-preset-env": "^6.5.0"
   }
 }
