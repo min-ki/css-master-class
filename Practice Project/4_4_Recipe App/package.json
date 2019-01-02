@@ -1,0 +1,13 @@
+{
+  "name": "4_4_recipe-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-preset-env": "^6.5.0"
+  }
+}
